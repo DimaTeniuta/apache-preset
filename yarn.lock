@@ -473,6 +473,13 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.1.1.tgz#1ec17e2edbec25c8306d424ecfbf13c7de1aaa31"
   integrity sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==
 
+"@preset-sdk/embedded@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@preset-sdk/embedded/-/embedded-0.1.10.tgz#c4fd77e8cd8e20315922cac6156c520c88bd2615"
+  integrity sha512-nyV3Iaw0gwUJ3pfp1kDljKp5CmUoGRDtCRvpIAKn9ytwI5RYYARlBIHSF/5blTpTE1naoglPN9i+qCst+8MTrg==
+  dependencies:
+    "@superset-ui/switchboard" "^0.18.26-0"
+
 "@remix-run/router@1.16.1":
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.16.1.tgz#73db3c48b975eeb06d0006481bde4f5f2d17d1cd"
@@ -557,6 +564,11 @@
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.17.2.tgz#5a2d08b81e8064b34242d5cc9973ef8dd1e60503"
   integrity sha512-TGGO7v7qOq4CYmSBVEYpI1Y5xDuCEnbVC5Vth8mOsW0gDSzxNrVERPc790IGHsrT2dQSimgMr9Ub3Y1Jci5/8w==
+
+"@superset-ui/switchboard@^0.18.26-0":
+  version "0.18.26-2"
+  resolved "https://registry.yarnpkg.com/@superset-ui/switchboard/-/switchboard-0.18.26-2.tgz#d69abc5a4b2564c89eae2ee48b406491d308b6e7"
+  integrity sha512-yIuEv8QGS+j+SS3P3TGQ0wp9WGKGHJrI39kjh74N1HFZlHhfZEKZ28XdZIjOEXlqCr7pvrF0XPEzLHnGSsbtCg==
 
 "@trivago/prettier-plugin-sort-imports@^4.3.0":
   version "4.3.0"

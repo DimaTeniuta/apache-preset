@@ -1,16 +1,25 @@
 import { lazy } from 'react';
-import { createBrowserRouter, Outlet } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 
-const HomePage = lazy(() => import('../pages/home/HomePage'));
+import { Layout } from '@/components/Layout/Layout';
+
+const EmbeddedDashboardPage = lazy(
+  () => import('../pages/EmbeddedDashboardPage/EmbeddedDashboardPage')
+);
+const APIDashboardPage = lazy(() => import('../pages/APIDashboardPage/APIDashboardPage'));
 
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <Outlet />,
+    element: <Layout />,
     children: [
       {
         index: true,
-        element: <HomePage />
+        element: <EmbeddedDashboardPage />
+      },
+      {
+        path: '/api-dashboard',
+        element: <APIDashboardPage />
       }
     ]
   }
